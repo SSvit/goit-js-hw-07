@@ -35,6 +35,8 @@ function onGalleryContainerClick(evt) {
 evt.preventDefault();
 }
 
+
+
 function createModdal(params) {
     const html = `<div class="modal">
     <img src="${params.dataset.source}" alt="${params.alt}"/>
